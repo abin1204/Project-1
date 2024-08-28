@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+</head>    
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Abin
+        <span>Rai</span></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+
+
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Abin</span></h1>
+            <h3 class="text-animation">I'm a <span></span></h3>
+            <p> Exploring HTML :]</p>
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                <a href="#"><i class='bx bxl-github' ></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            
+            </div>
+            <div class="line">
+                
+            </div>
+
+            <div class="btn-group">
+                <a href="#" class="btn">Hire</a>
+                <a href="#contact"
+                class="btn">Contact</a>
+            </div>
+        </div>
+            <div class="home-img">
+                <img src="image.jpg" alt="">
+            </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+        <div class="timeline-items">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2016</div>
+                    <div class="timeline-content">
+                        <h3><b>College</b></h3>
+                        <p><b>Uxbridge College</b></p>    
+                        <p>Studied Maths, Further Maths and Physics</p>
+                    </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2019</div>
+                    <div class="timeline-content">
+                        <h3><b>University</b></h3>
+                        <p><b>Imperial College London</b> </p>
+                        <p>MENG Civil and Environmental Engineering</p>
+                    </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+
+        <div class="container">
+            <div class="slide">
+                <div class="item" style="background-image: url('./Train Station 3D 2.jpg'); background-size: cover; background-position: center;">
+                    <div class="content">
+                        <div class="name" style="color: black;"> VIJAYAWADA RAILWAY STATION REDEVELOPMENT </div>
+                        <div class="des" style="color: black;">Description</div>
+                    </div>
+                </div>
+
+                <div class="item" style="background-image: url('./Presentation1.gif'); background-size: cover; background-position: center;">
+                    <div class="content">
+                        <div class="name" style="color: black;"> VIJAYAWADA RAILWAY STATION </div>
+                        <div class="des" style="color: black;">Description</div>
+                    </div>
+                </div>
+
+                <div class="item" style="background-image: url('./Train-Station-3D-1.jpg'); background-size: cover; background-position: center;">
+                    <div class="content">
+                        <div class="name" style="color: black;"> Platforms </div>
+                        <div class="des" style="color: black;">Description</div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <video autoplay muted loop style="width: 100%; height: 100%; object-fit: cover;">
+                        <source src="./Construction Sequence.mp4" type="video/mp4">
+                
+                    </video>
+                    <div class="content">
+                        <div class="name" style="color: black;">Construction Timelapse</div>
+                        <div class="des" style="color: black;">Description</div>
+                    </div>
+                </div>
+
+                <div class="item" style="background-image: url('./DESIGN OPTIMISATION.jpg'); background-size: cover; background-position: center;">
+                    <div class="content">
+                        <div class="name" style="color: black;"> Design Optimisation </div>
+                        <div class="des" style="color: black;">Description</div>
+                    </div>
+                </div>
+
+                <div class="item" style="background-image: url('./DIGITAL\ DESIGN\ PROCESS.jpg'); background-size: cover; background-position: center;">
+                    <div class="content">
+                        <div class="name" style="color: black;"> Design Process </div>
+                        <div class="des" style="color: black;">Description</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="button">
+                <button class="prev"><i class='bx bx-left-arrow'></i></button>
+                <button class="next"><i class='bx bx-right-arrow' ></i></button>
+            </div>
+ 
+        </div>
+    </section>
+
+   
+    <script src="script.js"></script>
+</body>
+</html>
